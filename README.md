@@ -44,7 +44,7 @@
 
 ### Acessar projeto: ✈
 
-◻<a href="https://willianol.github.io/To-Do-List/assets/index.html">To Do list - JavaScript</a>
+◻<a href="https://willianol.github.io/Login-e-registro-alternavel/assets/index.html">Login e registro alternável</a>
 
 
 ## <img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
