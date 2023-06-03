@@ -7,8 +7,9 @@
 </div>
 
 <div align='center'>
-	<img src= "https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/5f3c8754-8017-40e5-ab15-bf8d3111dfd9" width='850px'>
+	<img src= "https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/4ed90892-f164-441c-9dae-24d25ebf3fe5" width='850px'>
 </div>
+
 
 
 
