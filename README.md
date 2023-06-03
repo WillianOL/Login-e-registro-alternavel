@@ -10,9 +10,6 @@
 	<img src= "https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/4ed90892-f164-441c-9dae-24d25ebf3fe5" width='850px'>
 </div>
 
-
-
-
 ## Ferramentas utilizadas🛠️
 
 <div>
@@ -39,8 +36,8 @@
 </div>
 	
 <div>
-	<p>Aplicação de to do list, onde pode-se criar ou remover as tarefas(anotações). Neste porjeto, foi trabalhado lógica de programação, validação de dados, manipulação de arrays, manipulação do DOM e uso do atributo "data-".</p>
-	<p>A aplicação consiste em uma lista de tarefas, onde pode-se tanto adicionar quanto remover as tarefas(anotações), onde elas aparecem ao lado totalmente personalizadas. Ela possui validação, onde se nada for digitado no input irá mostrar a mensagem de alerta, e se a anotação já estiver adicionada a lista irá mostrar outra mensagem de aviso.</p>
+	<p>Projeto de uma página alternável entre login e registro. Neste projeto, foi muito trabalhado a manipulação do DOM com as classes CSS, adicionando e removendo classes. Também fazendo o uso do método setTimeOut() e outros.</p>
+	<p>A aplicação consiste em uma tela de login e registro que alterna entre elas de acordo com a nescessidade do usuário. A alteração das telas é feita pelos botões localizados no topo da página, que são "LOGIN" e "SIGN UP". Se a tela estiver em login, o botão sign-up ficará disponivel, se estiver em sign-up o botão de login ficará disponivel e vice-versa.</p>
 </div>
 
 ### Acessar projeto: ✈
@@ -49,3 +46,18 @@
 
 
 ## <img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
