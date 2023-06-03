@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <main>
+        <section class="left-conteiner">
+            <div class="titulo-e-botoes">
+                <button data-botao="login">LO<span>GIN</span></button>
+                <button data-botao="register" class="botao-ativo">SIGN <span>UP</span></button>
+            </div>
+            <p class="frase-destaque">Bem-vindo de volta! <span>Faça o login.</span></p>
+
+            <form action="#" data-formulario="login">
+                <div class="inputs">
+                    <label for="email">
+                        <i class="material-symbols-outlined">face</i>
+                        <input type="text" name="email" id="email" autocomplete="off">
+                        <span>Nome ou email</span>
+                    </label>
+                    <label for="senha">
+                        <i class="material-symbols-outlined">password</i>
+                        <input type="password" name="senha" id="senha" autocomplete="off">
+                        <span>Senha</span>
+                    </label>
+                </div>
+    
+                <span><a href="#">Esqueci a senha <i class="material-symbols-outlined">lock_reset</i></a></span>
+    
+                <button type="submit">Login</button>
+    
+                <div class="alternate-login-conteiner">
+                    <div class="login-alternativo google">
+                        <img src="../images/svg/google-icon.svg" alt="Icone do botão de login com o google">
+                        <p>Login com Google</p>
+                    </div>
+                    <div class="login-alternativo facebook">
+                        <img src="../images/svg/facebook-icon.svg" alt="Icone do botão de login com o google">
+                        <p>Login com Facebook</p>
+                    </div>
+                </div>
+            </form>
+    
+            <form action="#" data-formulario="register">
+                <div class="inputs">
+                    <label for="nomeRegistro">
+                        <i class="material-symbols-outlined">face</i>
+                        <input type="text" name="nome" id="nomeRegistro">
+                        <span>Nome</span>
+                    </label>
+                    <label for="emailRegistro">
+                        <i class="material-symbols-outlined">email</i>
+                        <input type="text" name="email" id="emailRegistro">
+                        <span>Email</span>
+                    </label>
+                    <label for="senhaRegistro">
+                        <i class="material-symbols-outlined">password</i>
+                        <input type="password" name="senha" id="senhaRegistro">
+                        <span>Senha</span>
+                    </label>
+                </div>
+                    
+                <div class="terms-conteiner">
+                    <label for="terms">
+                        <input type="checkbox" name="terms" id="terms">
+                        <p>Eu li & aceito <a href="#">os termos</a></p>
+                    </label>
+                </div>
+
+                <button type="submit">Sign up</button>
+
+                <div class="alternate-login-conteiner">
+                    <div class="login-alternativo google">
+                        <img src="../images/svg/google-icon.svg" alt="Icone do botão de login com o google">
+                        <p>Entrar com Google</p>
+                    </div>
+                    <div class="login-alternativo facebook">
+                        <img src="../images/svg/facebook-icon.svg" alt="Icone do botão de login com o google">
+                        <p>Entrar com Facebook</p>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section class="right-conteiner">
+            <img src="../images/Image2.jpg" alt="Imagem de exemplo do banner" class="image2">
+            <img src="../images/Image3.jpg" alt="Imagem de exemplo do banner" class="image3">
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

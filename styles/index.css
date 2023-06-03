@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --fontePrincipal: "Poppins", sans-serif;
+    --corDestaque: #3e91af;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--fontePrincipal);
+}
+
+/* Separação do banner e do formulario */
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.left-conteiner{
+    width: 45%;
+    height: 100vh;
+    padding: 40px;
+}
+
+.right-conteiner{
+    width: 60%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--corDestaque);
+}
+
+.right-conteiner::before{
+    content: " ";
+    background-color: white;
+    box-shadow: inset 10px 0px 20px 20px rgba(0, 0, 0, 0.141), 10px 5px 20px rgba(0, 0, 0, 0.196);
+    top: -100px;
+    right: -100px;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.right-conteiner::after{
+    content: " ";
+    background-color: white;
+    box-shadow: inset 10px 0px 20px 20px rgba(0, 0, 0, 0.141), 10px 5px 20px rgba(0, 0, 0, 0.196);
+    bottom: -100px;
+    left: -100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.right-conteiner img{
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    border-radius: 30px;
+    border: 5px solid var(--corDestaque);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.203);
+}
+
+.right-conteiner .image2{
+    width: 24vw;
+    top: 140px;
+    right: 50px;
+}
+
+.right-conteiner .image3{
+    width: 22vw;
+    left: 80px;
+    top: 80px;
+}
+
+@keyframes flutuarImagem1{
+    from{
+        transform: translateY(-10px);
+    }
+
+    to{
+        transform: translateY(10px);
+    }
+}
+
+/* Login e registro conteiner */
+.left-conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* Titulo/botões para trocar de formulario */
+.titulo-e-botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.titulo-e-botoes button{
+    font-size: 2.2em;
+    background: transparent;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all .3s ease;
+}
+
+.titulo-e-botoes button.botao-ativo{
+    background-color: var(--corDestaque);
+    padding: 0px 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px black;
+}
+
+.titulo-e-botoes button.botao-ativo span{
+    color: white;
+}
+
+.titulo-e-botoes button.botao-ativo:hover{
+    background-color: var(--corDestaque);
+    box-shadow: 0px 5px black;
+}
+
+.titulo-e-botoes button span{
+    color: var(--corDestaque);
+    position: relative;
+}
+
+
+.titulo-e-botoes button span::before{
+    position: absolute;
+    content: " ";
+    width: 52px;
+    height: 4px;
+    bottom: 4px;
+    right: 4px;
+    background-color: var(--corDestaque);
+    border-radius: 20px;
+}
+
+.titulo-e-botoes button:last-child span::before{
+    width: 40px;
+}
+
+.frase-destaque{
+    font-size: 1.15em;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.frase-destaque span{
+    color: var(--corDestaque);
+}
+
+.frase-destaque::before{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: var(--corDestaque);
+    border-radius: 50%;
+    left: -14px;
+    top: 7px;
+}
+
+/* Formularios */
+.left-conteiner form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px 0px;
+}
+
+.left-conteiner form .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 25px;
+    padding: 10px;
+}
+
+.left-conteiner form .inputs label{
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+    width: 100%;
+}
+
+.left-conteiner form .inputs label i{
+    font-size: 1.8em;
+    font-weight: 300;
+    color: var(--corDestaque);
+}
+
+.left-conteiner form .inputs input{
+    padding: 15px;
+    border-radius: 30px;
+    width: 90%;
+    font-size: 1rem;
+    border: 1px solid black;
+    outline: none;
+    transition: all .3s ease;
+}
+
+.left-conteiner form .inputs input:focus{
+    border-color: var(--corDestaque);
+}
+
+.left-conteiner form .inputs label span{
+    position: absolute;
+    left: 60px;
+    background-color: white;
+    transition: all .3s ease;
+    padding: 0px 10px;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.left-conteiner form .inputs input:focus ~ span{
+    transform: translateY(-25px);
+    color: var(--corDestaque);
+}
+
+.left-conteiner form span{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.left-conteiner form span a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.left-conteiner form span a:hover{
+    color: var(--corDestaque) !important;
+}
+
+.left-conteiner form button{
+    align-self: center;
+    font-size: 1.6rem;
+    background-color: var(--corDestaque);
+    color: white;
+    width: 200px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px black;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-bottom: 50px;
+}
+
+.left-conteiner form button:hover{
+    box-shadow: 0px 5px black;
+    letter-spacing: 5px;
+}
+
+/* Botões de login alternativos - Google e Facebook */
+
+.alternate-login-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.login-alternativo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 260px;
+    transition: all .3s ease;
+}
+
+.login-alternativo img{
+    width: 40px;
+}
+
+.google{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.164);
+}
+
+.google:hover{
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.facebook{
+    color: white;
+    background-color: #335AA6;
+}
+
+.facebook:hover{
+    background-color: #2b4a88;
+}
+
+/* Conteiner de condições do form Register  */
+.terms-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.terms-conteiner label{
+    display: flex;
+    gap: 5px;
+}
+
+.terms-conteiner a{
+    text-decoration: none;
+    color: var(--corDestaque);
+}
+
+.terms-conteiner a:hover{
+    text-decoration: underline;
+}
+
+/* Classes para troca de formulario - JS */
+[data-formulario="register"]{
+    display: none !important;
+}
+
+.esconde-form{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.366);
+    animation: esconderFormulario 1s ease forwards !important;
+}
+
+@keyframes esconderFormulario {
+    50%{transform: scale(0.8);}
+    100%{transform: translateX(-800px) scale(0.8);}
+}
+
+.aparece-form{
+    display: flex !important;
+    animation: apareceFormulario 1s ease;
+}
+
+@keyframes apareceFormulario{
+    0%{transform: scale(0.8) translateX(800px);}
+    50%{transform: scale(0.8);}
+    100%{transform: scale(1);}
+}
+
+.tiraDisplay{
+    display: none !important;
+}
+
+/* Responsivo */
+@media (max-width: 900px){
+    .left-conteiner{
+        width: 70%;
+    }
+
+    .left-conteiner form button{
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+
+    .login-alternativo img{
+        width: 30px;
+    }
+
+    .login-alternativo{
+        font-size: .8rem;
+        width: 210px;
+    }
+}
+
+@media (max-width: 650px){
+    .left-conteiner{
+        width: 100%;
+    }
+
+    .right-conteiner{
+        display: none;
+    }
+
+    .left-conteiner form button{
+        margin-bottom: 30px;
+    }
+
+    .alternate-login-conteiner{
+        gap: 10px;
+    }
+
+    .login-alternativo img{
+        width: 30px;
+    }
+
+    .login-alternativo{
+        font-size: .9rem;
+        width: 230px;
+    }
+
+    .titulo-e-botoes{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 345px){
+    .titulo-e-botoes{
+        justify-content: center;
+    }
+}
