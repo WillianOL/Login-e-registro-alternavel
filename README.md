@@ -47,6 +47,24 @@
 
 ## <img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
 
+### Vareáveis importantes
+
+<div>
+	<p>Para a construção do funcionamento da aplicação, foram definidas as vareáveis principais. Que são:<p>
+	<ul>
+		<li><strong>botaoRegistro</strong> - Botão de registro do topo do formulário;</li>
+		<li><strong>botaoLogin</strong> - Botão de login do topo do furmuçário;</li>
+		<li><strong>formLogin</strong> - Fomulário de login;</li>
+		<li><strong>formRegister</strong> - Formulário de registro;</li>
+		<li><strong>fraseFormulario</strong> - Frase que fica no topo do formulário;</li>
+	</ul>
+	<p>É a partir delas que vai ser construida a aplicação.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/88b9bd87-a48a-47a1-aa98-823f65304ef2" width="700px">
+</div>
+
 
 
 
