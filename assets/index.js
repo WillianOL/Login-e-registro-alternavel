@@ -5,7 +5,7 @@ const formRegister = document.querySelector("[data-formulario='register']");
 const fraseFormulario = document.querySelector(".frase-destaque");
 
 const classBotao = "botao-ativo";
-const classDisplayRemove = "tiraDisplay";
+const classRemoveDisplay = "tiraDisplay";
 const classApareceForm = "aparece-form";
 const classEscondeForm = "esconde-form";
 
@@ -15,12 +15,12 @@ function trocarParaRegister() {
         fraseFormulario.innerHTML = "Seja bem-vindo(a), <span>participe do time!</span>";
 
         setTimeout(() => {
-            if (formRegister.classList.contains(classDisplayRemove)) {
-                formRegister.classList.remove(classDisplayRemove);
+            if (formRegister.classList.contains(classRemoveDisplay)) {
+                formRegister.classList.remove(classRemoveDisplay);
                 formRegister.classList.remove(classEscondeForm);
                 formRegister.classList.remove(classApareceForm);
             }
-            formLogin.classList.add(classDisplayRemove);
+            formLogin.classList.add(classRemoveDisplay);
             formRegister.classList.add(classApareceForm);
             botaoLogin.classList.add(classBotao);
             botaoRegistro.classList.remove(classBotao);
@@ -34,12 +34,12 @@ function trocarParaLogin() {
         fraseFormulario.innerHTML = "Bem-vindo de volta! <span>Faça o login.</span>";
 
         setTimeout(() => {
-            if (formLogin.classList.contains(classDisplayRemove)) {
-                formLogin.classList.remove(classDisplayRemove);
+            if (formLogin.classList.contains(classRemoveDisplay)) {
+                formLogin.classList.remove(classRemoveDisplay);
                 formLogin.classList.remove(classEscondeForm);
                 formLogin.classList.remove(classApareceForm);
             }
-            formRegister.classList.add(classDisplayRemove);
+            formRegister.classList.add(classRemoveDisplay);
             formLogin.classList.add(classApareceForm);
             botaoRegistro.classList.add(classBotao);
             botaoLogin.classList.remove(classBotao);
