@@ -1,5 +1,5 @@
 <div> 
-  <h1 align="center">Login e registro alternável - Projeto JS👨‍💻</h1> 
+  <h1 align="center">Página de cadastro alternável - Projeto JS👨‍💻</h1> 
 </div>
 
 <div>
