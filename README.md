@@ -100,7 +100,7 @@
 &nbsp;
 
 <div>
-	<p>Como a página já abre com o furmulario de login a mostra, o botão de registro fica disponivel para o clique. Sendo assim, será executada a função "trocarParaRegister" primeiro.</p>
+	<p>Como a página já abre com o furmulario de login a mostra, o <strong>botão de registro fica disponivel para o clique</strong>. Sendo assim, será executada a função <strong>"trocarParaRegister"</strong> primeiro caso o usuário clique no botão.</p>
 </div>
 
 <div align="center">
@@ -112,18 +112,46 @@
 #### Função trocarParaRegister
 
 <div>
-	<p>Na função, é feita uma verificação com a estrutura de condição IF, que é o seguinte: Se o botão de regitro conter a classe "botão-ativo"(classBotao) executa o código. Fiz isso para a função só ser executada quando o botão estiver disponivel, evitando conflitos e bugs no código.</p>
+	<p>Na função, é feita uma verificação com a estrutura de condição IF, que é o seguinte: <strong>Se o botão de regitro conter a classe "botão-ativo"(classBotao) executa o código.</strong> Fiz isso para a função <strong>só ser executada quando o botão estiver disponível</strong>, evitando conflitos e bugs no código.</p>
 </div>
 
 <div align="center">
 	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/418bcce2-67ab-45f1-8c3c-b92a837a7dab" width="700px">
 </div>
 
+&nbsp;
+
 <div>
 	<p>Depois, no formulário de login é adicionado a classe que vai disparar a animação de esconder o formulário. E trocando a frase da tela (fraseFormulario) com o innerHTML.</p>
 </div>
 
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/8425bbef-8a96-442a-951a-b34f54bd79a1" width="700px"> 
+	<br>
+	<br>
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/e22a51f9-bd2b-4a00-a72f-b0aa48f14449" width="700px">
+</div>
 
+&nbsp;
+
+<div>
+	<p>Logo após, é executado o método <strong>setTimeOut com 2 segundos de espera</strong>, pois esse é o tempo que a animação de esconder formulário dura até terminar.</p>
+	<p>Dentro dele, é feita uma verificação com o um IF, com a seguinte condição: <strong>Se o fomulário de registro conter a classe "tiraDisplay"(classRemoveDisplay), executa o código.</strong> No IF, as classes <strong>"tiraDisplay",  "aparece-form" e "esconde-form"</strong> são removidas para evitar conflitos entre as classses.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/283c552d-dc57-44af-b824-2d4bcfef8ba1" width="700px">
+</div>
+
+&nbsp;
+
+<div>
+	<p>Depois do IF, é feita a mágica para trocar de tela. Primerio, o formulário de login recebe a classe "tiraDisplay"(classRemoveDisplay) para escondelo, depois o formulário de registro recebe a classe "aparece-form"(classApareceForm) que dispara a animação que irá mostrar o formulário. Por fim, o botão de login recebe a classe "botao-ativo"(classBotao) e remove a classe do botão sign-up.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/408a3c69-15cb-4b98-b993-e88162aebfe3" width="700px">
+</div>
 
 
 
