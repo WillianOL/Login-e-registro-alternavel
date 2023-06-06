@@ -375,7 +375,16 @@ main{
 }
 
 /* Responsivo */
-@media (max-width: 900px){
+@media (max-width: 1000px){
+    .image3{
+        display: none;
+    }
+
+    .image2{
+        width: 40vw !important;
+        right: 20px !important;
+    }
+
     .left-conteiner{
         width: 70%;
     }
