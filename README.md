@@ -132,7 +132,7 @@
 	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/e22a51f9-bd2b-4a00-a72f-b0aa48f14449" width="700px">
 </div>
 
-&nbsp;
+#### Função trocarParaRegister
 
 <div>
 	<p>Logo após, é executado o método <strong>setTimeOut com 2 segundos de espera</strong>, pois esse é o tempo que a animação de esconder formulário dura até terminar.</p>
@@ -151,8 +151,31 @@
 
 <div align="center">
 	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/408a3c69-15cb-4b98-b993-e88162aebfe3" width="700px">
+	<br>
+	<br>
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/855e53f4-0cae-41d1-b82a-778cd5953515" width="700px">
 </div>
 
+
+&nbsp;
+&nbsp;
+
+#### Função trocarParaLogin
+
+<div>
+	<p>A estrutura da função para a tela de login é a mesma que a de registro/sign-up. Mudando apenas onde e qual elemento vai receber as classes, apenas para trocar para a tela de login.</p>
+</div>
+
+<div align="center">
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/6b0d3afc-5c7f-4d6b-9378-0dd0f7d55bdb" width="700px">
+	<br>
+	<br>
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/39fa68fd-5c91-4e07-b551-10c1793d3a34" width="700px">
+	<br>
+	<br>
+	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/66a8146c-56c5-4fce-966b-a9556a40b50e" width="700px">
+
+</div>
 
 
 
