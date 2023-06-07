@@ -132,8 +132,6 @@
 	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/e22a51f9-bd2b-4a00-a72f-b0aa48f14449" width="700px">
 </div>
 
-#### Função trocarParaRegister
-
 <div>
 	<p>Logo após, é executado o método <strong>setTimeOut com 2 segundos de espera</strong>, pois esse é o tempo que a animação de esconder formulário dura até terminar.</p>
 	<p>Dentro dele, é feita uma verificação com o um IF, com a seguinte condição: <strong>Se o fomulário de registro conter a classe "tiraDisplay"(classRemoveDisplay), executa o código.</strong> No IF, as classes <strong>"tiraDisplay",  "aparece-form" e "esconde-form"</strong> são removidas para evitar conflitos entre as classses.</p>
