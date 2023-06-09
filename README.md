@@ -47,10 +47,10 @@
 
 ## <img align="center" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
 
-### Vareáveis importantes
+### Variáveis importantes
 
 <div>
-	<p>Para a construção do funcionamento da aplicação, foram definidas as vareáveis principais. Que são:<p>
+	<p>Para a construção do funcionamento da aplicação, foram definidas as variáveis principais. Que são:<p>
 	<ul>
 		<li><strong>botaoRegistro</strong> - Botão de registro do topo do formulário;</li>
 		<li><strong>botaoLogin</strong> - Botão de login do topo do furmuçário;</li>
@@ -71,7 +71,7 @@
 ### Vareáveis de classe - Clean code
 
 <div>
-	<p>Basicamente, todo a aplicação foi construida a partir da manipulação do DOM adicionando e removendo classes CSS, cada uma com sua função expecífica. Então para o código não ficar "poluído" e facilitar a manuntenção no código, as classes foram armazenadas dentro de vareáveis(const) em forma de string. São elas:</p>
+	<p>Basicamente, todo a aplicação foi construida a partir da manipulação do DOM adicionando e removendo classes CSS, cada uma com sua função expecífica. Então para o código não ficar "poluído" e facilitar a manuntenção no código, as classes foram armazenadas dentro de variáveis(const) em forma de string. São elas:</p>
 	<ul>
 		<li><strong>classBotao</strong> - classe que adiciona os estilos ao botão que é clicável;</li>
 		<li><strong>classRemoveDisplay</strong> - classe que remove o display do formulário;</li>
@@ -174,20 +174,3 @@
 	<img align="center" src="https://github.com/WillianOL/Login-e-registro-alternavel/assets/112639055/66a8146c-56c5-4fce-966b-a9556a40b50e" width="700px">
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
